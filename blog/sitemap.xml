@@ -5,84 +5,105 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-10-04T20:26:30-00:00</lastmod>
+<lastmod>2016-11-18T14:43:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-10-04T20:26:30-00:00</lastmod>
+<lastmod>2016-11-18T14:43:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-10-04T20:26:30-00:00</lastmod>
+<lastmod>2016-11-18T14:43:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-10-04T20:26:30-00:00</lastmod>
+<lastmod>2016-11-18T14:43:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-10-03T21:47:12+08:00</lastmod>
+<lastmod>2016-11-15T20:58:29+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html</loc>
-<lastmod>2016-09-02T12:00:00+08:00</lastmod>
+<loc>./qi-zhong-kao-gong-ke.html</loc>
+<lastmod>2016-11-15T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./ru-he-shang-chuan-vimeo.html</loc>
+<lastmod>2016-11-14T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./w10-brython-hui-tu-fan-li.html</loc>
+<lastmod>2016-11-14T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./zhi-ling-lian-xi.html</loc>
+<lastmod>2016-11-13T11:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./category/cours.html</loc>
+<lastmod>2016-11-14T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/misc.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<lastmod>2016-11-15T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<loc>./tag/python.html</loc>
+<lastmod>2016-11-15T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/chuang-zao-li.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<loc>./tag/brython.html</loc>
+<lastmod>2016-11-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/biao-da-neng-li.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/xie-tong-she-ji.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<loc>./tag/vimeo.html</loc>
+<lastmod>2016-11-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/yen.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<lastmod>2016-11-15T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
