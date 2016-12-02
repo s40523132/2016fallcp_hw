@@ -361,49 +361,6 @@ ctx.strokeStyle = "blue"
 ctx.stroke()
 ctx.closePath()
 </script>
-
-<p>以下為程式碼:
-<pre class="brush: python">
-<!-- 導入 Brython 標準程式庫 --></p>
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫兩條直線 -->
-
-<canvas id="guitarchord" width="600" height="200"></canvas>
-
-<script type="text/python3">
-from browser import document as doc
-import math
-
-# 準備繪圖畫布
-canvas = doc["guitarchord"]
-ctx = canvas.getContext("2d")
-
-ctx.beginPath()
-ctx.lineWidth = 1
-inc = 10
-for i in range(10):
-    ctx.moveTo(100+i*inc, 100)
-    ctx.lineTo(100+i*inc, 200)
-# 畫右上左下的斜線
-#ctx.moveTo(150, 100)
-#ctx.lineTo(100, 200)
-# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-ctx.strokeStyle = "blue"
-# 實際執行畫線
-ctx.stroke()
-ctx.closePath()
-</script>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -418,6 +375,11 @@ ctx.closePath()
 
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./w12-brython-hui-tu-lian-xi.html">
+                            W12 Brython 繪圖練習
+                        </a>
+                    </li>
                     <li class="list-group-item">
                         <a href="./qi-zhong-kao-gong-ke.html">
                             期中考功課
@@ -436,11 +398,6 @@ ctx.closePath()
                     <li class="list-group-item">
                         <a href="./zhi-ling-lian-xi.html">
                             指令練習
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">
-                            2016Fall 機械設計主題教學
                         </a>
                     </li>
                 </ul>
