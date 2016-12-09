@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>期中考功課 -  課程網誌 (虎尾科大MDE)</title>
+    <title>CP W13 練習 -  課程網誌 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,19 +166,20 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./qi-zhong-kao-gong-ke.html">
+<link rel="canonical" href="./cp-w13-lian-xi.html">
 
         <meta name="author" content="yen" />
-        <meta name="keywords" content="Python" />
+        <meta name="keywords" content="W13" />
+        <meta name="description" content="將 http://mde.tw/2016fallcp/course/Python3Programs.txt 整理成 brython" />
 
         <meta property="og:site_name" content=" 課程網誌 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="期中考功課"/>
-        <meta property="og:url" content="./qi-zhong-kao-gong-ke.html"/>
-        <meta property="og:description" content=""/>
-        <meta property="article:published_time" content="2016-11-15" />
+        <meta property="og:title" content="CP W13 練習"/>
+        <meta property="og:url" content="./cp-w13-lian-xi.html"/>
+        <meta property="og:description" content="將 http://mde.tw/2016fallcp/course/Python3Programs.txt 整理成 brython"/>
+        <meta property="article:published_time" content="2016-12-09" />
             <meta property="article:section" content="Misc" />
-            <meta property="article:tag" content="Python" />
+            <meta property="article:tag" content="W13" />
             <meta property="article:author" content="yen" />
 
 
@@ -289,10 +290,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./qi-zhong-kao-gong-ke.html"
+                    <a href="./cp-w13-lian-xi.html"
                        rel="bookmark"
-                       title="Permalink to 期中考功課">
-                        期中考功課
+                       title="Permalink to CP W13 練習">
+                        CP W13 練習
                     </a>
                 </h1>
             </header>
@@ -302,7 +303,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2016-11-15T12:00:00+08:00"> 週二 15 十一月 2016</time>
+        <i class="fa fa-calendar"></i><time datetime="2016-12-09T12:00:00+08:00"> 週五 09 十二月 2016</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/yen.html"><i class="fa fa-user"></i> yen</a>
@@ -310,15 +311,60 @@ init_mathjax();
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/python.html">Python</a>
+	<a href="./tag/w13.html">W13</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <!-- PELICAN_END_SUMMARY -->
+                <p>將 <a href="http://mde.tw/2016fallcp/course/Python3Programs.txt">http://mde.tw/2016fallcp/course/Python3Programs.txt</a> 整理成 brython</p>
 
-<iframe src="https://player.vimeo.com/video/190993723" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<p><a href="https://vimeo.com/190993723">2016-11-10_19-08-45</a> from <a href="https://vimeo.com/user58668068">陳崴</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫圖 -->
+
+<div id="container"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+container = doc['container']
+mystring = ""
+num = input("請輸入重複執行次數:")
+#for i in range(1,11):
+for i in range(1,int(num)+1):         
+    mystring += str(i) + ": hello mde" + html.BR()
+container <= mystring
+</script>
+
+<div id="temperature"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+container = doc['temperature']
+mystring = ""
+cdegree = input("請輸入攝氏溫度:")
+fdegree = float(cdegree)*9/5 + 32
+output_string = "攝氏 "+str(cdegree) + "度=華氏 " + str(fdegree) + "度"
+container <= output_string
+</script>
+
+<p>開始進行範例分類:</p>
+<p>接受使用者的輸入</p>
+<p>利用 alert() 顯示結果</p>
+<p>直接列印結果</p>
             </div>
             <!-- /.entry-content -->
         </article>
