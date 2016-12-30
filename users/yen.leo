@@ -175,6 +175,7 @@
 <v t="leo.20161209143058.1"><vh>@edit 20161209.md</vh></v>
 <v t="leo.20161216132055.1"><vh>@edit 20161216.md</vh></v>
 <v t="leo.20161223130741.1"><vh>@edit 20161223.md</vh></v>
+<v t="leo.20161230132835.1"><vh>@edit 20161230.md</vh></v>
 </v>
 </v>
 </v>
@@ -1094,7 +1095,7 @@ import http.server, ssl
 def domake():
     # build directory
     os.chdir("./../")
-    server_address = ('192.168.1.46', 5443)
+    server_address = ('localhost', 5443)
     httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
     httpd.socket = ssl.wrap_socket(httpd.socket,
                                    server_side=True,
