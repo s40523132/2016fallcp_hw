@@ -81,7 +81,11 @@ for s in mylist:
     #canvasText(100, 80, 20, "A", "b", "", "black", ctx)
     canvasText(100+num*w, 80, 20, s, "", "", "black", ctx)
     num = num + 1
-&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>W10 Brython 繪圖範例</title><link href="./w10-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>陳崴</name></author><id>tag:,2016-11-14:./w10-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;p&gt;現在可以用程式來畫各種的線條圖案&lt;/p&gt;
+&lt;p&gt;應該會比用其他的東西來的快&lt;/p&gt;
+&lt;p&gt;只是要一直算距離,會有點麻煩&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>W10 Brython 繪圖範例</title><link href="./w10-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>陳崴</name></author><id>tag:,2016-11-14:./w10-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 
 
 &lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;

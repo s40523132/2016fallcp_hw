@@ -43,7 +43,9 @@ for i in range(5):
 do["b1"].bind("click", compa)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="b1"&gt;compa&lt;/button&gt;&lt;/p&gt;</summary><category term="W15"></category></entry><entry><title>CP W14 練習</title><link href="./cp-w14-lian-xi.html" rel="alternate"></link><published>2016-12-16T12:00:00+08:00</published><updated>2016-12-16T12:00:00+08:00</updated><author><name>陳崴</name></author><id>tag:,2016-12-16:./cp-w14-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;button id="b1"&gt;compa&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;這是利用電腦來判斷,就不用我們來一個一個判斷&lt;/p&gt;</summary><category term="W15"></category></entry><entry><title>CP W14 練習</title><link href="./cp-w14-lian-xi.html" rel="alternate"></link><published>2016-12-16T12:00:00+08:00</published><updated>2016-12-16T12:00:00+08:00</updated><author><name>陳崴</name></author><id>tag:,2016-12-16:./cp-w14-lian-xi.html</id><summary type="html">&lt;p&gt;做出了一個按鈕,讓你想要玩就可以按&lt;/p&gt;
+
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -70,7 +72,8 @@ def get_input(ev):
 document['ch01'].bind('click',get_input)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="ch01"&gt;40523132&lt;/button&gt;&lt;/p&gt;</summary><category term="W14"></category></entry><entry><title>CP W13 練習</title><link href="./cp-w13-lian-xi.html" rel="alternate"></link><published>2016-12-09T12:00:00+08:00</published><updated>2016-12-09T12:00:00+08:00</updated><author><name>陳崴</name></author><id>tag:,2016-12-09:./cp-w13-lian-xi.html</id><summary type="html">&lt;p&gt;將 &lt;a href="http://mde.tw/2016fallcp/course/Python3Programs.txt"&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;/a&gt; 整理成 brython&lt;/p&gt;
+&lt;p&gt;&lt;button id="ch01"&gt;40523132&lt;/button&gt;&lt;/p&gt;</summary><category term="W14"></category></entry><entry><title>CP W13 練習</title><link href="./cp-w13-lian-xi.html" rel="alternate"></link><published>2016-12-09T12:00:00+08:00</published><updated>2016-12-09T12:00:00+08:00</updated><author><name>陳崴</name></author><id>tag:,2016-12-09:./cp-w13-lian-xi.html</id><summary type="html">&lt;p&gt;這個程式可以讓你跟電腦互動&lt;/p&gt;
+&lt;p&gt;將 &lt;a href="http://mde.tw/2016fallcp/course/Python3Programs.txt"&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;/a&gt; 整理成 brython&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
